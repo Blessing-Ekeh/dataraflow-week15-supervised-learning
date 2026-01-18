@@ -1,0 +1,9 @@
+Model,Prediction at Level 6.5,Visual Assessment,Pros,Cons
+Linear Regression,330378.7878787879,Severe Underfitting,Simple and interpretable,Cannot model non-linearity
+Polynomial deg 2,189498.10606060608,Underfitting,Captures slight non-linearity,Still too rigid
+Polynomial deg 3,133259.4696969717,Underfitting,Good balance of bias-variance,May miss sharp changes
+Polynomial deg 4,158862.45265152561,Good fit,Captures Curvature well,Risk of overfitting
+Polynomial deg 5,174878.077651178,Overfitting,Very accurate on training data,High Variance risk
+Polynomial deg 6,174192.81930584367,Overfitting,Extremely flexible,Unstable predictions
+SVR (RBF),170370.02040650236,Excellent fit,Smooth and robust,"Hard to interpret, scaling required"
+Decision Tree,150000.0,Overfitting (step-wise),Handles non-linearity,"Step-wise, poor generalization"
